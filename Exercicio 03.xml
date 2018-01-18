@@ -1,0 +1,21 @@
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLDeployment</id><coordinates><x>0</x><y>20</y><w>290</w><h>190</h></coordinates><panel_attributes>&lt;&lt;computador cliente&gt;&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>30</x><y>60</y><w>230</w><h>130</h></coordinates><panel_attributes>&lt;&lt;OS&gt;&gt;
+Microsoft Windows XP Professional,
+Microsoft Windows Vista Business, Microsoft Windows 7 Professional, Microsoft Windows
+8
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>70</x><y>130</y><w>150</w><h>50</h></coordinates><panel_attributes>&lt;&lt;web browser&gt;&gt;
+Internet Explorer versão 6.0 e versões superiores
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>380</x><y>340</y><w>320</w><h>210</h></coordinates><panel_attributes>&lt;&lt;computador servidor&gt;&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>20</x><y>390</y><w>240</w><h>150</h></coordinates><panel_attributes>&lt;&lt;servidor de aplicações&gt;&gt;
+Tomcat 8 ou superior
+group=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>50</x><y>460</y><w>170</w><h>60</h></coordinates><panel_attributes>&lt;&lt;aplicação Java Web&gt;&gt;
+Loja Virtual
+group=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>200</y><w>30</w><h>160</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>0</x><y>340</y><w>290</w><h>210</h></coordinates><panel_attributes>&lt;&lt;computador servidor&gt;&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>430</x><y>450</y><w>210</w><h>60</h></coordinates><panel_attributes>&lt;&lt;aplicação  de banco de dados&gt;&gt;
+Sql-Server 2012 ou seuperior
+group=3</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>410</x><y>380</y><w>260</w><h>150</h></coordinates><panel_attributes>&lt;&lt;servidor&gt;&gt;
+Windows Server 2016
+group=3</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>430</y><w>120</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;100;20</additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>360</x><y>20</y><w>290</w><h>190</h></coordinates><panel_attributes>&lt;&lt;computador cliente&gt;&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>430</x><y>130</y><w>150</w><h>50</h></coordinates><panel_attributes>&lt;&lt;web browser&gt;&gt;
+ Mozilla Firefox versão 10.0 e versões superiores
+group=4</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>390</x><y>60</y><w>230</w><h>130</h></coordinates><panel_attributes>&lt;&lt;OS&gt;&gt;
+Microsoft Windows XP Professional,
+Microsoft Windows Vista Business, Microsoft Windows 7 Professional, Microsoft Windows
+8
+group=4</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>200</y><w>390</w><h>160</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;140;370;10</additional_attributes></element></diagram>
