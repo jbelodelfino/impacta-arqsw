@@ -1,0 +1,9 @@
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLDeployment</id><coordinates><x>110</x><y>50</y><w>330</w><h>240</h></coordinates><panel_attributes>&lt;&lt;computador cliente&gt;&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>140</x><y>120</y><w>260</w><h>140</h></coordinates><panel_attributes>&lt;&lt;OS&gt;&gt;
+windows 7 ou superior
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>180</x><y>190</y><w>160</w><h>50</h></coordinates><panel_attributes>&lt;&lt;web browser&gt;&gt;
+Chrome 37 ou superior
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>110</x><y>350</y><w>340</w><h>240</h></coordinates><panel_attributes>&lt;&lt;computador servidor&gt;&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>130</x><y>410</y><w>290</w><h>150</h></coordinates><panel_attributes>&lt;&lt;servidor de aplicações&gt;&gt;
+Tomcat 8 ou superior
+group=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>190</x><y>480</y><w>160</w><h>60</h></coordinates><panel_attributes>&lt;&lt;aplicação Java Web&gt;&gt;
+Loja Virtual
+group=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>280</y><w>30</w><h>90</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element></diagram>
