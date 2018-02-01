@@ -1,0 +1,46 @@
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>390</x><y>160</y><w>210</w><h>100</h></coordinates><panel_attributes>&lt;&lt;Ideia&gt;&gt;
+--
+-IdIdeia: int
+-IdCategoria: int
+-Identificacao: numeric
+-DescricaoIdeia: string
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>390</y><w>210</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Organizador&gt;&gt;
+--
+-IdCategoria: int
+-DescricaoCategoria: string
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>400</y><w>210</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Participante&gt;&gt;
+--
+-IdParticipante: int
+-Identificacao: int
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>70</y><w>90</w><h>110</h></coordinates><panel_attributes>lt=-&gt;
+m1=1..
+m2=0..*
+categoraia</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>250</y><w>90</w><h>170</h></coordinates><panel_attributes>lt=-&gt;
+m1=0..*
+m2=1
+participante
+</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>0</y><w>220</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Categoria&gt;&gt;
+--
+-IdCategoria: int
+-DescricaoCategoria: string(100)
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>180</y><w>210</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Aviso&gt;&gt;
+--
+-IdAviso
+-DataHoraAviso
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>250</y><w>90</w><h>160</h></coordinates><panel_attributes>lt=-&gt;
+destinatatio
+</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>200</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+ideia</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>510</y><w>520</w><h>80</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+InovacaoSvc
+--
+consultarCategorias(): Categoria[]
+enaviarIdeia(identificar, descricao, categoarisSelecionadas): Erro</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>610</y><w>520</w><h>70</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+InterfaceInovacaoDB
+--
+id: Long="36548"
+[waiting for message]</panel_attributes><additional_attributes></additional_attributes></element></diagram>
