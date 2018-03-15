@@ -24,3 +24,13 @@ Abordagem para analise e avaliação sobre hardware.
 #Quais foram os 3 principais riscos identificados?
 
 inadequate or out-of-date documentation
+
+#Exercício 7.4
+#Veja um exemplo de aplicação da metodogia CBAM em
+#http://www.ece.ubc.ca/~matei/EECE417/BASS/ch12lev1sec4.html
+#Note que há várias informações quantitativas.
+#Veja a tabela 12.8, que mostra o ROI das diversas estratégias de arquitetura. 
+Quais foram as 5 estratégias que obtiveram os melhores resultados?
+1, 3, 2, 7, 8
+
+
